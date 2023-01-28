@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;  
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 29%;
+  float: left;
+  margin: 10px 0px 0px 0px;
+  background-color: silver;
+  border: 1px solid rgb(170, 168, 168);
+}
+.exp {
+  display: flex;
+  flex-direction: column;
+  width: 69%;
+  margin: 10px 5px 0px 0px;
+  background-color: silver;
+  border: 1px solid rgb(170, 168, 168);
+}
+p {
+  color: black;
+  font-family: fangsong;
+  font-size: 17px;  
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: black;
+ }
+ h2 {
+  font-family: fangsong;    
+  color: black;  
+}
+h3 {
+  font-family: revert;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;  
+}
+h4 {
+  font-family: fangsong;  
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+  text-decoration: underline black 2px;
+}
+h5 {
+  font-family: fangsong;  
+  font-weight: bold;
+  color: black;
+  font-size: 20px
+}
+footer {
+  text-align: center;
+  padding: 70px 0;
+}
+
+footer .box-links {
+  margin: 20px auto;
+}
+
+.social a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px;
+  transition: 0.3s;
+  background: transparent;
+  margin: 0 10px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.social a:hover {
+  opacity: 0.5;
+}
+
+.social a img {
+  height: 28px;
+  width: 28px;
+  display: block;
+}
+.boton{
+  border: 0px;
+}
+
+
+
+
+
+
+@media (max-width: 991px) {
+  .container {
+    width: 991px;
+  }
+  .foto {
+    height: 300px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 768px;    
+    
+  }
+  .foto{
+    height: 148px;
+    width: 236px;
+  }
+  #nombrecv {
+    font-size: 30px;
+}
+  h2 {
+  font-size: 22px;
+}
+
+  .exp {
+    margin-right: 5px;
+    width: 67%;
+  }
+
+  #exp {
+    margin-right: 5px;
+    width: 67%;
+  }
+
+  p {
+    font-size: 15px;
+}
+  li {
+  font-size: 15px;
+}
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 576px;
+  }
+  .foto {
+    height: 146px;
+    width: 146px;
+}
+  #nombrecv {
+  font-size: 23px;
+}
+  h2 {
+font-size: 18px;
+}
+#conocimiento {
+  font-size: 18px;
+  }
+
+#datos {
+    font-size: 18px;
+    }
+#idioma {
+    font-size: 18px;
+    }
+
+  .exp {
+  margin-right: 5px;
+  width: 67%;
+}
+
+  p {
+  font-size: 12px;
+}
+  li {
+font-size: 12px;
+}
+}
