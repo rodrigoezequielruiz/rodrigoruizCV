@@ -89,6 +89,12 @@ footer .box-links {
 .boton{
   border: 0px;
 }
+#referencias{
+  cursor:pointer;
+}
+#exp2{
+  cursor:pointer;
+}
 
 
 
