@@ -98,9 +98,6 @@ footer .box-links {
 
 
 
-
-
-
 @media (max-width: 991px) {
   .container {
     width: 991px;
@@ -180,5 +177,14 @@ font-size: 18px;
 }
   li {
 font-size: 12px;
+}
+}
+@media (max-width: 414px) {
+
+  .container {
+    width: 414px;
+  }
+  .foto {
+    width: 118px;
 }
 }
